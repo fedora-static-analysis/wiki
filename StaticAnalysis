@@ -1,0 +1,41 @@
+= Fedora Static Analysis Special Interest Group (SIG) =
+
+(Note that this SIG is merely tentative for now)
+
+== Goal and Scope ==
+TBD
+
+dmalcolm is interested in making it easy to run static code analysis tools on all of Fedora, and having a sane system for getting useful information from the firehose of data that doing so is likely to generate.  See http://lists.fedoraproject.org/pipermail/devel/2012-December/175232.html
+
+See also the [[FormalMethods|Formal Methods SIG]] with which there's clearly an overlap.
+
+== Mission and Plan ==
+TBD
+
+== Members ==
+* [[User:Dmalcolm|Dave Malcolm]]
+* [[User:Rjones|Richard W.M. Jones]]
+* [[JoshBressers|Josh Bressers]]
+* [[User:decalek|Alek Paunov]] (DB tasks)
+* [[OndrejVasik|Ondrej Vasik]]
+* [[User:kdudka|Kamil Dudka]]
+
+== Communication ==
+TBD; Fedora's main devel list for now
+
+== Tasks ==
+TODO
+
+=== Static Code Analysis tools already in Fedora ===
+TODO
+* [http://gcc.gnu.org/ gcc] - arguably we should pay more attention to the compiler warnings that gcc already generates: sometimes it's correctly pointing out a bug.
+* [http://clang-analyzer.llvm.org/ clang static analyzer] (in Fedora as "clang-analyzer" subpackage of "llvm")
+* [https://gcc-python-plugin.readthedocs.org/en/latest/cpychecker.html cpychecker] (part of gcc-python-plugin)
+* [http://www.dwheeler.com/flawfinder/ flawfinder] (that page has a great list of links to other static analysis tools)
+* [http://cppcheck.sourceforge.net/ cppcheck] Cppcheck is a static analysis tool for C/C++ code.
+* [https://sparse.wiki.kernel.org/ sparse] - a Semantic Parser for C, primarily used by kernel developers.
+
+=== Package Want List ===
+TODO
+
+[[Category:SIGs]]
